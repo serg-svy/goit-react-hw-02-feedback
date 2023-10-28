@@ -10,7 +10,7 @@ export const Statistics = ({
 }) => {
   return (
     <List>
-      <li>Hood: {good}</li>
+      <li>Good: {good}</li>
       <li>Neutral: {neutral}</li>
       <li>Bad: {bad}</li>
       <li>Total: {total()}</li>
